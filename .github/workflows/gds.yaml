@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Run Tiny Tapeout Precheck
-        uses: TinyTapeout/tt-gds-action/precheck@ttgf26c
+        uses: ttcodebot/tt-gds-action/precheck@fix/gf180-drc-logger
 
   gl_test:
     needs: gds
